@@ -1399,8 +1399,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 541cae5b-2db5-44cd-8fd0-1c5f0ead3208)
   )
-  (text "USB-C 2.0 Port\n5.1k resistors to GND on both CC pins indicate\nthat this device is acting in legacy 2.0 UFP mode."
-    (at 26.67 127 0)
+  (text "JST Port\n5.1k resistors to GND on both CC pins will be on\ndaughterboard and its indicate\nthat this device is acting in legacy 2.0 UFP mode."
+    (at 37.465 139.065 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a6e3435-cf33-4562-9f22-f511cb6b5a3a)
   )
