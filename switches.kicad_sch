@@ -243,7 +243,7 @@
   (symbol (lib_id "Device:D_Small") (at 125.095 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04a0f93e-dfbc-4952-accf-77bf1a12b5ed)
-    (property "Reference" "D34" (at 127 85.09 90)
+    (property "Reference" "D35" (at 127 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 127 85.725 90)
@@ -266,7 +266,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D34") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -275,7 +275,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.385 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dbf464a-777f-4d8c-88de-11a5db2155bf)
-    (property "Reference" "D50" (at 161.29 100.965 90)
+    (property "Reference" "D52" (at 161.29 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 161.29 101.6 90)
@@ -298,7 +298,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D50") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -339,7 +339,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.385 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11d78052-4b8c-42d8-9690-5925583bae17)
-    (property "Reference" "D37" (at 161.29 85.09 90)
+    (property "Reference" "D38" (at 161.29 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 161.29 85.725 90)
@@ -362,7 +362,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D37") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -485,7 +485,7 @@
   (symbol (lib_id "Device:D_Small") (at 79.375 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19cafcf5-eeb8-4f8c-a3fb-7538567680c8)
-    (property "Reference" "D57" (at 81.28 116.84 90)
+    (property "Reference" "D59" (at 81.28 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 81.28 117.475 90)
@@ -508,7 +508,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D57") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
@@ -517,7 +517,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.385 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19f1db66-3790-4f8f-8f2a-92de19b52202)
-    (property "Reference" "D61" (at 161.29 116.84 90)
+    (property "Reference" "D64" (at 161.29 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 161.29 117.475 90)
@@ -540,7 +540,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D61") (unit 1)
+          (reference "D64") (unit 1)
         )
       )
     )
@@ -659,7 +659,7 @@
   (symbol (lib_id "Device:D_Small") (at 90.805 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b878d30-ed47-4426-b1e0-a035ebc57be1)
-    (property "Reference" "D44" (at 92.71 100.965 90)
+    (property "Reference" "D46" (at 92.71 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 92.71 101.6 90)
@@ -682,7 +682,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D44") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -691,7 +691,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.665 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c6da017-c927-4c3a-8ee3-45a395cc853c)
-    (property "Reference" "D59" (at 115.57 116.84 90)
+    (property "Reference" "D62" (at 115.57 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 115.57 117.475 90)
@@ -714,7 +714,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D59") (unit 1)
+          (reference "D62") (unit 1)
         )
       )
     )
@@ -929,7 +929,7 @@
   (symbol (lib_id "Device:D_Small") (at 147.955 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 377b405e-b90e-4603-b44e-70263cbe22a9)
-    (property "Reference" "D49" (at 149.86 100.965 90)
+    (property "Reference" "D51" (at 149.86 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 149.86 101.6 90)
@@ -952,7 +952,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D49") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -987,7 +987,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 111.125 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 419c37ce-f36d-44b1-b37c-836d157f78ee)
-    (property "Reference" "MX63" (at 111.125 106.045 0)
+    (property "Reference" "MX62" (at 111.125 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 111.125 106.045 0)
@@ -1004,7 +1004,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX63") (unit 1)
+          (reference "MX62") (unit 1)
         )
       )
     )
@@ -1013,7 +1013,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.815 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44e16a89-1176-4acd-b68f-b4ed420748d7)
-    (property "Reference" "D51" (at 172.72 100.965 90)
+    (property "Reference" "D53" (at 172.72 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 172.72 101.6 90)
@@ -1036,7 +1036,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D51") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -1297,7 +1297,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.105 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a693b0c-f23e-48d1-a733-8d3cf45e3c7d)
-    (property "Reference" "D64" (at 207.01 116.84 90)
+    (property "Reference" "D68" (at 207.01 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 207.01 117.475 90)
@@ -1320,7 +1320,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D64") (unit 1)
+          (reference "D68") (unit 1)
         )
       )
     )
@@ -1329,7 +1329,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.665 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a74130c-4f9a-4f41-8d89-8d96ba5d1b6d)
-    (property "Reference" "D46" (at 115.57 100.965 90)
+    (property "Reference" "D48" (at 115.57 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 115.57 101.6 90)
@@ -1352,7 +1352,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D46") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -1361,7 +1361,7 @@
   (symbol (lib_id "Device:D_Small") (at 222.885 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5aa6d3fb-27e1-4e8d-9eeb-22f69d7e5e82)
-    (property "Reference" "D65" (at 224.79 116.84 90)
+    (property "Reference" "D69" (at 224.79 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 224.79 117.475 90)
@@ -1384,7 +1384,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D65") (unit 1)
+          (reference "D69") (unit 1)
         )
       )
     )
@@ -1393,7 +1393,7 @@
   (symbol (lib_id "Device:D_Small") (at 90.805 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b12de0d-a92c-4564-ade7-c1a3ff568abe)
-    (property "Reference" "D58" (at 92.71 116.84 90)
+    (property "Reference" "D60" (at 92.71 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 92.71 117.475 90)
@@ -1416,7 +1416,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D58") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
@@ -1529,7 +1529,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 113.03 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63799c92-c5f7-435d-ac8d-347af34dc336)
-    (property "Reference" "S63" (at 111.125 125.095 0)
+    (property "Reference" "S62" (at 111.125 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3u" (at 111.76 129.54 0)
@@ -1544,7 +1544,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "S63") (unit 1)
+          (reference "S62") (unit 1)
         )
       )
     )
@@ -1553,7 +1553,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 136.525 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6834872d-4793-4e28-b0bf-41c3103f00b4)
-    (property "Reference" "S64" (at 134.62 125.73 0)
+    (property "Reference" "S63" (at 134.62 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "7u" (at 135.255 130.175 0)
@@ -1568,7 +1568,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "S64") (unit 1)
+          (reference "S63") (unit 1)
         )
       )
     )
@@ -1577,7 +1577,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 179.705 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 687f1664-552a-49de-acd1-216a9d564477)
-    (property "Reference" "MX66" (at 179.705 106.045 0)
+    (property "Reference" "MX65" (at 179.705 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 179.705 106.045 0)
@@ -1594,7 +1594,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX66") (unit 1)
+          (reference "MX65") (unit 1)
         )
       )
     )
@@ -1661,7 +1661,7 @@
   (symbol (lib_id "Device:D_Small") (at 136.525 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f5d7d45-70e2-43d0-9ce0-21a98d92c4cb)
-    (property "Reference" "D48" (at 138.43 100.965 90)
+    (property "Reference" "D50" (at 138.43 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 138.43 101.6 90)
@@ -1684,7 +1684,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D48") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -1809,7 +1809,7 @@
   (symbol (lib_id "Device:D_Small") (at 67.945 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d4bc9fd-e7e7-4d46-88df-dc0c7baa0b8c)
-    (property "Reference" "D56" (at 69.85 116.84 90)
+    (property "Reference" "D58" (at 69.85 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 69.85 117.475 90)
@@ -1832,7 +1832,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D56") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "Device:D_Small") (at 182.245 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8854793f-821d-4991-b1a7-b65b5d84db0d)
-    (property "Reference" "D52" (at 184.15 100.965 90)
+    (property "Reference" "D54" (at 184.15 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 184.15 101.6 90)
@@ -2000,7 +2000,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D52") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -2035,7 +2035,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 88.265 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b9f9670-7f06-4ef7-ab7b-81bd7ce97e36)
-    (property "Reference" "MX62" (at 88.265 106.045 0)
+    (property "Reference" "MX60" (at 88.265 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 88.265 106.045 0)
@@ -2052,7 +2052,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX62") (unit 1)
+          (reference "MX60") (unit 1)
         )
       )
     )
@@ -2087,7 +2087,7 @@
   (symbol (lib_id "Device:D_Small") (at 193.675 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d6f1313-05a5-4bfb-9a0b-a55b414bcea6)
-    (property "Reference" "D53" (at 195.58 100.965 90)
+    (property "Reference" "D55" (at 195.58 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 195.58 101.6 90)
@@ -2110,7 +2110,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D53") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "Device:D_Small") (at 67.945 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 941d9b22-1396-4a35-ab46-6f9af5e6fa94)
-    (property "Reference" "D42" (at 69.85 100.965 90)
+    (property "Reference" "D43" (at 69.85 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 69.85 101.6 90)
@@ -2226,7 +2226,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D42") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -2339,7 +2339,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 133.985 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a145ac80-9008-4b01-9cb1-4584a3026bdb)
-    (property "Reference" "MX64" (at 133.985 106.045 0)
+    (property "Reference" "MX63" (at 133.985 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 133.985 106.045 0)
@@ -2356,7 +2356,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX64") (unit 1)
+          (reference "MX63") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
   (symbol (lib_id "Device:D_Small") (at 136.525 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4ce639e-4ce6-4f27-b4a0-ce7df6940ddf)
-    (property "Reference" "D60" (at 138.43 116.84 90)
+    (property "Reference" "D63" (at 138.43 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 138.43 117.475 90)
@@ -2440,7 +2440,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D60") (unit 1)
+          (reference "D63") (unit 1)
         )
       )
     )
@@ -2449,7 +2449,7 @@
   (symbol (lib_id "Device:D_Small") (at 222.885 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a553796c-5466-434f-a4d4-3652ba3ddb29)
-    (property "Reference" "D55" (at 224.79 100.965 90)
+    (property "Reference" "D57" (at 224.79 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 224.79 101.6 90)
@@ -2472,7 +2472,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D55") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
@@ -2643,7 +2643,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.105 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa879b7a-0a51-447e-98d3-90b3e03611b4)
-    (property "Reference" "D40" (at 207.01 85.09 90)
+    (property "Reference" "D41" (at 207.01 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 207.01 85.725 90)
@@ -2666,7 +2666,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D40") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -2707,7 +2707,7 @@
   (symbol (lib_id "Device:D_Small") (at 222.885 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abb92896-bd59-4aeb-82d1-917333642911)
-    (property "Reference" "D41" (at 224.79 85.09 90)
+    (property "Reference" "D42" (at 224.79 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 224.79 85.725 90)
@@ -2730,7 +2730,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D41") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
@@ -2765,7 +2765,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 182.88 109.855 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aeb86647-ed1f-4e82-bba9-0fca340ffe0d)
-    (property "Reference" "MX59" (at 186.69 114.3 0)
+    (property "Reference" "MX66" (at 186.69 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 182.88 114.3 0)
@@ -2782,7 +2782,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX59") (unit 1)
+          (reference "MX66") (unit 1)
         )
       )
     )
@@ -2817,7 +2817,7 @@
   (symbol (lib_id "Device:D_Small") (at 182.245 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b09f8e19-4f65-435a-8c5e-15981cd7a7e8)
-    (property "Reference" "D62" (at 184.15 116.84 90)
+    (property "Reference" "D65" (at 184.15 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 184.15 117.475 90)
@@ -2840,7 +2840,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D62") (unit 1)
+          (reference "D65") (unit 1)
         )
       )
     )
@@ -2985,7 +2985,7 @@
   (symbol (lib_id "Device:D_Small") (at 90.805 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b98a9552-b312-4d43-8828-0efdb4c9985d)
-    (property "Reference" "D31" (at 92.71 85.09 90)
+    (property "Reference" "D32" (at 92.71 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 92.71 85.725 90)
@@ -3008,7 +3008,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D31") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -3067,7 +3067,7 @@
   (symbol (lib_id "Device:D_Small") (at 79.375 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bad5904e-9038-4cdf-9e2b-bc742777e51b)
-    (property "Reference" "D43" (at 81.28 100.965 90)
+    (property "Reference" "D45" (at 81.28 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 81.28 101.6 90)
@@ -3090,7 +3090,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D43") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.815 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0e81e79-c06f-4e87-9151-dca88c543ac8)
-    (property "Reference" "D38" (at 172.72 85.09 90)
+    (property "Reference" "D39" (at 172.72 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 172.72 85.725 90)
@@ -3148,7 +3148,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D38") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "Device:D_Small") (at 79.375 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c28f1be2-3480-4cac-89d1-de4f969a6637)
-    (property "Reference" "D30" (at 81.28 85.09 90)
+    (property "Reference" "D31" (at 81.28 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 81.28 85.725 90)
@@ -3175,12 +3175,12 @@
     (property "Sim.Pins" "1=K 2=A" (at 79.375 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f021359-1e30-4b8b-95dc-dfdefd7d5cb6))
-    (pin "2" (uuid 4850eb4f-b993-416a-9f0f-3ceec39682ad))
+    (pin "1" (uuid dc81b5a0-2b64-47bd-bb31-458ab49cec39))
+    (pin "2" (uuid f116302b-049c-4107-a092-0d416f692cc6))
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D30") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -3337,7 +3337,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 156.845 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9e69e8e-a244-4a72-9d26-e32ca61ce0dd)
-    (property "Reference" "MX65" (at 156.845 106.045 0)
+    (property "Reference" "MX64" (at 156.845 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 156.845 106.045 0)
@@ -3354,7 +3354,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX65") (unit 1)
+          (reference "MX64") (unit 1)
         )
       )
     )
@@ -3421,7 +3421,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 76.835 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbb1b3bd-51ab-488e-9276-41953ce80e73)
-    (property "Reference" "MX61" (at 76.835 106.045 0)
+    (property "Reference" "MX59" (at 76.835 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 76.835 106.045 0)
@@ -3438,7 +3438,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX61") (unit 1)
+          (reference "MX59") (unit 1)
         )
       )
     )
@@ -3447,7 +3447,7 @@
   (symbol (lib_id "Device:D_Small") (at 147.955 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0f4e133-1550-47b5-82c7-a078b408d074)
-    (property "Reference" "D36" (at 149.86 85.09 90)
+    (property "Reference" "D37" (at 149.86 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 149.86 85.725 90)
@@ -3470,7 +3470,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D36") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -3503,7 +3503,7 @@
   (symbol (lib_id "Device:D_Small") (at 125.095 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d305ca73-f81e-4ea2-8db6-6318de65e081)
-    (property "Reference" "D47" (at 127 100.965 90)
+    (property "Reference" "D49" (at 127 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 127 101.6 90)
@@ -3526,7 +3526,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D47") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -3593,7 +3593,7 @@
   (symbol (lib_id "Device:D_Small") (at 102.235 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d587d176-0c25-47b6-b4a1-dca82cf47b21)
-    (property "Reference" "D32" (at 104.14 85.09 90)
+    (property "Reference" "D33" (at 104.14 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 104.14 85.725 90)
@@ -3616,7 +3616,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D32") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -3625,7 +3625,7 @@
   (symbol (lib_id "Device:D_Small") (at 193.675 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8980698-7a52-4833-b96f-b1d2dcfc1cf6)
-    (property "Reference" "D63" (at 195.58 116.84 90)
+    (property "Reference" "D67" (at 195.58 116.84 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 195.58 117.475 90)
@@ -3648,7 +3648,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D63") (unit 1)
+          (reference "D67") (unit 1)
         )
       )
     )
@@ -3657,7 +3657,7 @@
   (symbol (lib_id "Device:D_Small") (at 102.235 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8c83e45-9d0b-46cf-80a1-8023a41e7b31)
-    (property "Reference" "D45" (at 104.14 100.965 90)
+    (property "Reference" "D47" (at 104.14 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 104.14 101.6 90)
@@ -3680,7 +3680,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D45") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -3689,7 +3689,7 @@
   (symbol (lib_id "Device:D_Small") (at 182.245 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da3cde3f-aae6-440d-adb6-21df3f51478e)
-    (property "Reference" "D39" (at 184.15 85.09 90)
+    (property "Reference" "D40" (at 184.15 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 184.15 85.725 90)
@@ -3712,7 +3712,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D39") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -3779,7 +3779,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 159.385 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e07530ac-22ed-40b0-9ab4-957a301cf69d)
-    (property "Reference" "S65" (at 157.48 125.095 0)
+    (property "Reference" "S64" (at 157.48 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3u" (at 158.115 129.54 0)
@@ -3794,7 +3794,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "S65") (unit 1)
+          (reference "S64") (unit 1)
         )
       )
     )
@@ -3829,7 +3829,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 65.405 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e49befd4-6c43-482d-846b-037e5a9f4355)
-    (property "Reference" "MX60" (at 65.405 106.045 0)
+    (property "Reference" "MX58" (at 65.405 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 65.405 106.045 0)
@@ -3846,7 +3846,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX60") (unit 1)
+          (reference "MX58") (unit 1)
         )
       )
     )
@@ -3965,7 +3965,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.665 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efa9235b-a8bd-4cd4-9d75-f66bda58696d)
-    (property "Reference" "D33" (at 115.57 85.09 90)
+    (property "Reference" "D34" (at 115.57 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 115.57 85.725 90)
@@ -3988,7 +3988,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D33") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.105 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1a5cf73-5450-419d-a8d5-5d838ca8a3b3)
-    (property "Reference" "D54" (at 207.01 100.965 90)
+    (property "Reference" "D56" (at 207.01 100.965 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 207.01 101.6 90)
@@ -4020,7 +4020,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D54") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -4029,7 +4029,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11") (at 91.44 109.855 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f219f63d-1a68-4c71-85cc-1c936376cc34)
-    (property "Reference" "MX58" (at 95.25 114.3 0)
+    (property "Reference" "MX61" (at 95.25 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MX_SW_HS" (at 91.44 114.3 0)
@@ -4046,7 +4046,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "MX58") (unit 1)
+          (reference "MX61") (unit 1)
         )
       )
     )
@@ -4081,7 +4081,7 @@
   (symbol (lib_id "Device:D_Small") (at 136.525 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f375b8bd-edbc-4903-a179-ce2f8adb9f24)
-    (property "Reference" "D35" (at 138.43 85.09 90)
+    (property "Reference" "D36" (at 138.43 85.09 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (at 138.43 85.725 90)
@@ -4104,7 +4104,7 @@
     (instances
       (project "cloak-xt"
         (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-          (reference "D35") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
