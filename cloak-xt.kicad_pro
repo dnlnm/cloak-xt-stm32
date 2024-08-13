@@ -393,7 +393,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -408,7 +408,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stm32f072_template.kicad_pro",
+    "filename": "cloak-xt.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -487,6 +487,10 @@
     [
       "4d291fcf-fdf2-46ba-aa57-60bc75f9cc32",
       ""
+    ],
+    [
+      "1dce68b0-b625-42aa-84db-de4b32ed3fae",
+      "switches"
     ]
   ],
   "text_variables": {}

@@ -3615,6 +3615,23 @@
     )
   )
 
+  (sheet (at 194.945 46.355) (size 49.53 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1dce68b0-b625-42aa-84db-de4b32ed3fae)
+    (property "Sheetname" "switches" (at 194.945 45.6434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "switches.kicad_sch" (at 194.945 85.0396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cloak-xt"
+        (path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32" (page "2"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
