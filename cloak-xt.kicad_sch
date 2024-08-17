@@ -1052,102 +1052,6 @@
 				)
 			)
 		)
-		(symbol "GND_2"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32F0:STM32F072CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2308,6 +2212,244 @@
 				)
 			)
 		)
+		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.175 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MX_SK6812MINI-E"
+				(at 10.16 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MX_SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_marbastlib-various:SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3165,22 +3307,58 @@
 		)
 	)
 	(junction
-		(at 336.55 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c9a22f3-b66a-45ba-9368-9ec9d58a7a63")
-	)
-	(junction
 		(at 200.025 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d582eac-b1ed-4447-a35e-576e8cb16b42")
 	)
 	(junction
+		(at 441.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1053c273-3986-4dc5-bab0-f9a5a91244d7")
+	)
+	(junction
+		(at 363.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1278fe93-bf40-45d0-a95e-226ae6b46d0d")
+	)
+	(junction
+		(at 337.82 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12878d08-d664-482a-a039-caedd4c26f59")
+	)
+	(junction
 		(at 81.915 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "189312bf-8f29-47d4-9d40-19685f452270")
+	)
+	(junction
+		(at 379.73 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20924a85-010a-4d3c-b222-d3c87b7b474c")
+	)
+	(junction
+		(at 382.27 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "242209d8-80ce-4764-8132-97ed82e24574")
+	)
+	(junction
+		(at 350.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e1908c-d573-4f6c-b92b-8e4a85ee51d2")
+	)
+	(junction
+		(at 344.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e26aa48-3a65-4ba9-b467-982fe544ab69")
 	)
 	(junction
 		(at 159.385 178.435)
@@ -3195,10 +3373,34 @@
 		(uuid "41b6716a-80d7-44c2-8efc-60d43f0d811c")
 	)
 	(junction
+		(at 463.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4718d1b5-55a4-48c4-9d80-05fbd276f356")
+	)
+	(junction
+		(at 483.87 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499eea47-e82f-490a-9916-4ebb8da1dcc5")
+	)
+	(junction
+		(at 369.57 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1446ed-83a6-4930-a53e-e42fa7f03818")
+	)
+	(junction
 		(at 156.21 150.495)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f46c0a-c845-4f50-8919-6ca0a47d94ac")
+	)
+	(junction
+		(at 421.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6327a642-e81b-4d3f-a2f5-4a47a895184e")
 	)
 	(junction
 		(at 136.525 178.435)
@@ -3207,10 +3409,10 @@
 		(uuid "6b464e8c-5f22-41be-b992-6092fd710d33")
 	)
 	(junction
-		(at 349.25 83.82)
+		(at 525.78 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ed217a1-0662-4cff-bbba-2b63b2b21727")
+		(uuid "74cee17f-527c-438d-b7c8-69c8a45fe4f0")
 	)
 	(junction
 		(at 156.21 142.875)
@@ -3219,10 +3421,22 @@
 		(uuid "7597dedc-ccd7-45fa-9430-04cda15c11ff")
 	)
 	(junction
-		(at 360.68 63.5)
+		(at 400.05 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79430b6a-ac7f-404f-aa2c-a88e109d3e8d")
+		(uuid "784a2d2f-cc66-4bb5-872b-a94236705158")
+	)
+	(junction
+		(at 525.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4d7e1a-c059-49ab-b5ae-a35d0c0d2d6c")
+	)
+	(junction
+		(at 336.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bb31b13-9b99-47b0-aa19-df0274925bc1")
 	)
 	(junction
 		(at 121.92 150.495)
@@ -3231,10 +3445,40 @@
 		(uuid "7c46697d-f689-4c14-b89d-82fa52e45685")
 	)
 	(junction
+		(at 421.64 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ccdc44f-0d35-434d-9a3f-7dbb59c96387")
+	)
+	(junction
+		(at 356.87 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85413dee-e78e-431b-8408-99240b245fa6")
+	)
+	(junction
+		(at 363.22 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8687a52a-d903-4c0a-ab79-9d6084b19b88")
+	)
+	(junction
 		(at 149.225 186.055)
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "891a5dee-c9a0-407f-9eb2-eae54d1db90e")
+	)
+	(junction
+		(at 356.87 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8c3d7c-76a9-420f-abcc-dd32688e19b6")
+	)
+	(junction
+		(at 388.62 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de5bbda-5fc3-453e-9538-b10b8086f2e6")
 	)
 	(junction
 		(at 256.54 148.59)
@@ -3255,16 +3499,58 @@
 		(uuid "91674640-c3d1-4aac-896b-c10152ea8ca8")
 	)
 	(junction
+		(at 505.46 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91717241-9498-499f-938b-e8c75ff1fa4b")
+	)
+	(junction
+		(at 441.96 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961dc5c3-e3d5-44f0-91d4-1e81a815b9e8")
+	)
+	(junction
+		(at 344.17 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "990d3f22-f458-4fda-8810-36d29e05681b")
+	)
+	(junction
+		(at 388.62 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a7ea3c-2883-419f-83b9-0928a665e302")
+	)
+	(junction
 		(at 144.78 150.495)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0ade3a8-8c84-4760-ae6f-51d1f1a5ac6b")
 	)
 	(junction
+		(at 483.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b1b8c4-8ee1-4df4-a1c4-b6b7a5183a6a")
+	)
+	(junction
 		(at 133.35 150.495)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a421f12a-276a-4f4e-8bfa-d090edc3cdda")
+	)
+	(junction
+		(at 360.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77e12a5-3fb3-4cb3-9f2d-83dc5df27d39")
+	)
+	(junction
+		(at 379.73 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad9d9783-26f4-46e1-8a0f-a51265abd179")
 	)
 	(junction
 		(at 167.64 150.495)
@@ -3285,16 +3571,88 @@
 		(uuid "b90dae78-7c64-41d9-8903-1d7af5504f86")
 	)
 	(junction
+		(at 375.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb7a03ca-13ab-4935-9de8-11db1baaa1b8")
+	)
+	(junction
+		(at 463.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12f18f7-5d62-42e1-8703-abaca6ed2462")
+	)
+	(junction
+		(at 546.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4213881-8e7f-43e2-9f8a-5ff96dc31720")
+	)
+	(junction
+		(at 400.05 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e86847-4067-46e9-a5aa-278cf12ca262")
+	)
+	(junction
+		(at 337.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4fcaf0-828b-4c93-b081-61aa25db1e3c")
+	)
+	(junction
 		(at 144.78 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc35b1c4-ef12-4b47-8cf9-bbdd75d1d43d")
 	)
 	(junction
-		(at 336.55 58.42)
+		(at 546.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db239604-1d38-42d6-8619-d382efea8d3d")
+		(uuid "d1915540-9b74-44ff-aed4-e3f1dce63487")
+	)
+	(junction
+		(at 350.52 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3845495-01c3-4313-83d6-7db8d25dc6c8")
+	)
+	(junction
+		(at 360.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d60cd764-ac3c-40e2-a9ed-180b3f34f9ba")
+	)
+	(junction
+		(at 369.57 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e418f767-bb5b-44a6-ade7-53397af878bb")
+	)
+	(junction
+		(at 375.92 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52ef1a2-3910-49a8-b1b9-9a04ffe7ac63")
+	)
+	(junction
+		(at 336.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b13216-09b7-4d66-b1b7-e23b94a78357")
+	)
+	(junction
+		(at 382.27 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd1cba8-e61b-4397-816c-8c11d276e169")
+	)
+	(junction
+		(at 505.46 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c639c7-365e-4b23-9781-da533ed8edf1")
 	)
 	(junction
 		(at 133.35 142.875)
@@ -3330,6 +3688,26 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 76.2) (xy 455.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae84826-2d71-48d8-b461-f9193c5784da")
+	)
+	(wire
+		(pts
+			(xy 382.27 113.03) (xy 388.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d428099-89a7-49d0-b34a-9613d0734ea1")
+	)
+	(wire
+		(pts
 			(xy 318.77 74.93) (xy 318.77 76.2)
 		)
 		(stroke
@@ -3337,6 +3715,16 @@
 			(type default)
 		)
 		(uuid "108e0739-82d9-46b4-a0b2-bfe4aa2920ab")
+	)
+	(wire
+		(pts
+			(xy 344.17 113.03) (xy 350.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10aed12b-09e1-48fc-87a4-fd0d9d424069")
 	)
 	(wire
 		(pts
@@ -3350,23 +3738,33 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 58.42) (xy 360.68 63.5)
+			(xy 483.87 83.82) (xy 505.46 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "158d50ff-2456-4a0c-bf29-e65d299c897e")
+		(uuid "1527a453-6c2c-43d8-a14e-68b06d7bbb84")
 	)
 	(wire
 		(pts
-			(xy 336.55 58.42) (xy 360.68 58.42)
+			(xy 369.57 107.95) (xy 375.92 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1688af13-d464-4ea9-a1b8-3ddcacc9c09d")
+		(uuid "156cddea-9e95-4c99-a852-a210304caa65")
+	)
+	(wire
+		(pts
+			(xy 350.52 113.03) (xy 356.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a03b75-10cf-4988-be39-ffab36ab5468")
 	)
 	(wire
 		(pts
@@ -3377,6 +3775,26 @@
 			(type default)
 		)
 		(uuid "1690575d-728a-462d-9428-f07cd39f2f0f")
+	)
+	(wire
+		(pts
+			(xy 546.1 83.82) (xy 566.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1764dae9-6bc0-44f6-985f-cef93747a4cd")
+	)
+	(wire
+		(pts
+			(xy 379.73 68.58) (xy 400.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a3e416-b4cf-49b7-9f3a-03b2e877deff")
 	)
 	(wire
 		(pts
@@ -3397,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "2033c5cf-7dbf-4a06-9125-fbc7ea2308e4")
+	)
+	(wire
+		(pts
+			(xy 407.67 76.2) (xy 414.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b5ac0c-7123-47fe-b8a8-e3a7f1639d54")
 	)
 	(wire
 		(pts
@@ -3470,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 107.95) (xy 350.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30088924-51fe-4641-b4ce-1f0c48481318")
+	)
+	(wire
+		(pts
 			(xy 84.455 24.13) (xy 84.455 25.4)
 		)
 		(stroke
@@ -3497,6 +3935,16 @@
 			(type default)
 		)
 		(uuid "3a98605d-27d4-4fbd-a3b7-e2b5f288d3d8")
+	)
+	(wire
+		(pts
+			(xy 379.73 83.82) (xy 400.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acd86dd-6a63-4bc4-81c6-33d876eb8bd8")
 	)
 	(wire
 		(pts
@@ -3550,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 83.82) (xy 546.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435f1137-c048-47d0-b779-e55df37baa06")
+	)
+	(wire
+		(pts
 			(xy 149.225 186.055) (xy 159.385 186.055)
 		)
 		(stroke
@@ -3557,6 +4015,16 @@
 			(type solid)
 		)
 		(uuid "44da83d5-0a43-4457-b937-0f11a3eda32f")
+	)
+	(wire
+		(pts
+			(xy 382.27 107.95) (xy 388.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46083b10-9865-455f-943d-77e82f497a98")
 	)
 	(wire
 		(pts
@@ -3577,6 +4045,26 @@
 			(type default)
 		)
 		(uuid "46d0faa9-92bc-488f-9bdf-79e2403672c7")
+	)
+	(wire
+		(pts
+			(xy 525.78 68.58) (xy 546.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475b0878-5a6f-4305-b53d-c2754c1418d6")
+	)
+	(wire
+		(pts
+			(xy 363.22 113.03) (xy 369.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bff1024-5cb4-4d92-9351-69a60fb7dc2d")
 	)
 	(wire
 		(pts
@@ -3620,16 +4108,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 58.42) (xy 325.12 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d6113b-3b4d-4eaa-8766-d44863964dbc")
-	)
-	(wire
-		(pts
 			(xy 60.96 73.66) (xy 64.135 73.66)
 		)
 		(stroke
@@ -3657,6 +4135,16 @@
 			(type default)
 		)
 		(uuid "57b376ed-9769-4320-abbd-a312b74906ec")
+	)
+	(wire
+		(pts
+			(xy 337.82 107.95) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b88d3f-ac02-4f37-b684-f31601281d39")
 	)
 	(wire
 		(pts
@@ -3740,6 +4228,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 68.58) (xy 421.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671a6d6e-052a-492b-b023-0def4d46667b")
+	)
+	(wire
+		(pts
 			(xy 179.07 71.12) (xy 181.61 71.12)
 		)
 		(stroke
@@ -3747,6 +4245,16 @@
 			(type default)
 		)
 		(uuid "686a672f-c5c2-4c66-9e4e-e3a52c6a2a61")
+	)
+	(wire
+		(pts
+			(xy 441.96 83.82) (xy 463.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1b55a1-1a4b-4c45-8492-eb12f60865a8")
 	)
 	(wire
 		(pts
@@ -3800,6 +4308,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 113.03) (xy 344.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cb3179-0bdf-4c1c-803a-e0e23b940cbb")
+	)
+	(wire
+		(pts
 			(xy 156.845 178.435) (xy 159.385 178.435)
 		)
 		(stroke
@@ -3850,6 +4368,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 68.58) (xy 463.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b38448a-38a3-4e80-8585-f538c7307da5")
+	)
+	(wire
+		(pts
 			(xy 60.96 58.42) (xy 64.135 58.42)
 		)
 		(stroke
@@ -3897,6 +4425,26 @@
 			(type default)
 		)
 		(uuid "814b1fd5-e773-4d3c-a439-cd03da3e58e9")
+	)
+	(wire
+		(pts
+			(xy 387.35 76.2) (xy 392.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d9ecf3-18b3-4da9-a501-cdd1777e6a3f")
+	)
+	(wire
+		(pts
+			(xy 483.87 68.58) (xy 505.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86699c4f-906f-4723-a579-a678bdf73264")
 	)
 	(wire
 		(pts
@@ -3960,6 +4508,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 83.82) (xy 336.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f60c2a-0d06-48da-bfe4-e1c1252d406f")
+	)
+	(wire
+		(pts
 			(xy 60.325 50.8) (xy 64.135 50.8)
 		)
 		(stroke
@@ -3970,6 +4528,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 76.2) (xy 434.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f68672-360b-4c99-a980-fbba7aa26770")
+	)
+	(wire
+		(pts
 			(xy 79.375 104.14) (xy 81.915 104.14)
 		)
 		(stroke
@@ -3977,16 +4545,6 @@
 			(type default)
 		)
 		(uuid "9803718d-3d75-4361-808f-64ddaded1e98")
-	)
-	(wire
-		(pts
-			(xy 336.55 58.42) (xy 336.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98122dab-8e21-44af-8fbf-17a2072f94e8")
 	)
 	(wire
 		(pts
@@ -4017,6 +4575,16 @@
 			(type default)
 		)
 		(uuid "994a0924-d761-475e-8fee-ea1404d5e301")
+	)
+	(wire
+		(pts
+			(xy 360.68 68.58) (xy 379.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a34918-3883-40d4-9439-1767f67e05ab")
 	)
 	(wire
 		(pts
@@ -4070,13 +4638,23 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 83.82) (xy 336.55 83.82)
+			(xy 336.55 83.82) (xy 360.68 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9defebb0-6353-4a9f-8836-bdcebd84751d")
+	)
+	(wire
+		(pts
+			(xy 533.4 76.2) (xy 538.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df3b999-8276-45d8-8c57-ca5a52bbb46d")
 	)
 	(wire
 		(pts
@@ -4120,6 +4698,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 68.58) (xy 360.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f0590f-98ac-4654-ac5d-54ffd31e211c")
+	)
+	(wire
+		(pts
 			(xy 231.14 30.48) (xy 231.14 33.02)
 		)
 		(stroke
@@ -4130,13 +4718,13 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 63.5) (xy 336.55 68.58)
+			(xy 356.87 113.03) (xy 363.22 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7687cc4-32db-4533-9169-02f8b439ca75")
+		(uuid "a6fae18a-d0ae-4fd2-ac4e-43bc8db70fcc")
 	)
 	(wire
 		(pts
@@ -4147,6 +4735,16 @@
 			(type default)
 		)
 		(uuid "a7a8fe23-8027-40b2-b22b-685740da9c8d")
+	)
+	(wire
+		(pts
+			(xy 368.3 76.2) (xy 372.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ce365e-95fb-4380-a04e-34f910192bd9")
 	)
 	(wire
 		(pts
@@ -4200,6 +4798,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 68.58) (xy 441.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10b9868-feff-4b19-8ded-813b2033b205")
+	)
+	(wire
+		(pts
 			(xy 60.96 68.58) (xy 64.135 68.58)
 		)
 		(stroke
@@ -4220,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 83.82) (xy 421.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53ad335-f0aa-47a1-bd90-6853011caff5")
+	)
+	(wire
+		(pts
 			(xy 259.08 62.23) (xy 262.89 62.23)
 		)
 		(stroke
@@ -4227,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "b71c1005-5019-4261-8c05-2547128dd0a4")
+	)
+	(wire
+		(pts
+			(xy 553.72 76.2) (xy 558.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73cdf1a-cce1-4153-927d-7f2a976c8f8d")
 	)
 	(wire
 		(pts
@@ -4250,13 +4878,23 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 58.42) (xy 336.55 58.42)
+			(xy 350.52 107.95) (xy 356.87 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9f4e986-879d-4278-be17-94744fb397eb")
+		(uuid "ba2a7270-9dc4-4c30-b499-a72305c18d0e")
+	)
+	(wire
+		(pts
+			(xy 332.74 113.03) (xy 337.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf567f7-4b3f-4a38-8ad2-05545dee9adc")
 	)
 	(wire
 		(pts
@@ -4310,6 +4948,46 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 107.95) (xy 363.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68d118a-c845-4ac4-80af-9e34bf623a21")
+	)
+	(wire
+		(pts
+			(xy 363.22 107.95) (xy 369.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7524dc6-ca2c-4eb6-a93c-f92405fda6e6")
+	)
+	(wire
+		(pts
+			(xy 463.55 83.82) (xy 483.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75a0f11-4b76-4faa-a29e-1de8921e4afe")
+	)
+	(wire
+		(pts
+			(xy 505.46 68.58) (xy 525.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c797f29b-ceac-4d26-9562-74d340a0e2a4")
+	)
+	(wire
+		(pts
 			(xy 133.35 150.495) (xy 121.92 150.495)
 		)
 		(stroke
@@ -4317,6 +4995,16 @@
 			(type default)
 		)
 		(uuid "caffbfd5-9860-4b38-8bf7-68a6b924d837")
+	)
+	(wire
+		(pts
+			(xy 375.92 107.95) (xy 382.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd2c286-e600-421b-94b2-73d838510b2c")
 	)
 	(wire
 		(pts
@@ -4330,6 +5018,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 113.03) (xy 394.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcaba1c-789b-45fb-842b-05f1b6da5222")
+	)
+	(wire
+		(pts
 			(xy 259.08 67.31) (xy 262.89 67.31)
 		)
 		(stroke
@@ -4337,6 +5035,36 @@
 			(type default)
 		)
 		(uuid "ceb6b337-1b8e-4277-ad99-d03920a19bea")
+	)
+	(wire
+		(pts
+			(xy 471.17 76.2) (xy 476.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf799430-589d-464c-aa84-1e89f599b942")
+	)
+	(wire
+		(pts
+			(xy 332.74 107.95) (xy 337.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0552830-fee0-428c-a4ad-b8a889dcc30f")
+	)
+	(wire
+		(pts
+			(xy 463.55 68.58) (xy 483.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2df3a42-3983-4da9-b9bb-85d339e71037")
 	)
 	(wire
 		(pts
@@ -4420,6 +5148,26 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 83.82) (xy 525.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3cc68c-eaeb-4634-9244-69265ce8ad74")
+	)
+	(wire
+		(pts
+			(xy 388.62 107.95) (xy 394.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e343bb19-5850-4b8a-82c5-104a5e35c785")
+	)
+	(wire
+		(pts
 			(xy 98.425 30.48) (xy 97.155 30.48)
 		)
 		(stroke
@@ -4430,13 +5178,13 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 63.5) (xy 331.47 63.5)
+			(xy 330.2 68.58) (xy 336.55 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e63ff4f9-f033-475f-93bb-765a09743817")
+		(uuid "e734bdcd-b7d0-417a-9998-23c78edbe464")
 	)
 	(wire
 		(pts
@@ -4460,6 +5208,26 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 113.03) (xy 375.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95c6d2f-af62-4664-a362-2c6588dffa56")
+	)
+	(wire
+		(pts
+			(xy 513.08 76.2) (xy 518.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9606c03-8dc1-4d20-97b5-d6bf250e09e3")
+	)
+	(wire
+		(pts
 			(xy 312.42 76.2) (xy 318.77 76.2)
 		)
 		(stroke
@@ -4480,23 +5248,33 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 63.5) (xy 360.68 68.58)
+			(xy 491.49 76.2) (xy 497.84 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaba0342-db73-41fd-9090-c40936dd9788")
+		(uuid "ead6f38b-17bb-4c45-8096-fe63719afddc")
 	)
 	(wire
 		(pts
-			(xy 353.06 63.5) (xy 355.6 63.5)
+			(xy 375.92 113.03) (xy 382.27 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcc3d9e-0a65-44ca-844d-7a12a4430eca")
+		(uuid "ececf4c6-902d-4572-b632-e177788e9a18")
+	)
+	(wire
+		(pts
+			(xy 421.64 83.82) (xy 441.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32e5135-c0b8-431c-8ff0-768c9ae5f14a")
 	)
 	(wire
 		(pts
@@ -4510,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 83.82) (xy 379.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62bf6b6-5ca0-4efc-aaef-f3bbd942990c")
+	)
+	(wire
+		(pts
 			(xy 156.21 150.495) (xy 167.64 150.495)
 		)
 		(stroke
@@ -4520,13 +5308,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 83.82) (xy 349.25 91.44)
+			(xy 546.1 68.58) (xy 566.42 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fad95fa5-e93d-4096-836f-4f76cbe78c48")
+		(uuid "fda85cb5-5f43-42b1-8b8e-7b285570cdc0")
 	)
 	(wire
 		(pts
@@ -4547,16 +5335,6 @@
 			(type default)
 		)
 		(uuid "ff2a16b8-f419-4a21-ae97-25375650d951")
-	)
-	(wire
-		(pts
-			(xy 360.68 83.82) (xy 349.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbb3bee-b3d8-42c7-a43c-3c4c3435beab")
 	)
 	(text "SPI1_SCK/TIM2_CH2/FT"
 		(exclude_from_sim no)
@@ -6536,18 +7314,17 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 349.25 91.44 0)
+		(lib_id "power:+5V")
+		(at 332.74 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18357daa-bbd1-4038-b054-bb3727ad64ec")
-		(property "Reference" "#PWR016"
-			(at 349.25 97.79 0)
+		(uuid "1799eb4f-c312-425c-8a82-37b0aa571412")
+		(property "Reference" "#PWR020"
+			(at 332.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,8 +7332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 349.25 96.52 0)
+		(property "Value" "+5V"
+			(at 332.74 104.3455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +7341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 91.44 0)
+			(at 332.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +7350,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 91.44 0)
+			(at 332.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44119d68-0321-412e-a5c3-65eccdf8267d")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 330.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18357daa-bbd1-4038-b054-bb3727ad64ec")
+		(property "Reference" "#PWR016"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +7425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 91.44 0)
+			(at 330.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,6 +7440,84 @@
 			(project ""
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 369.57 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb0ab1a-a870-4a50-9dfc-6aa15d8a9a91")
+		(property "Reference" "C15"
+			(at 367.665 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 366.395 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37062298-83c3-4b60-8f69-e9c0231a346d")
+		)
+		(pin "2"
+			(uuid "46f1456b-9adc-401c-8d5b-9a5b1405f830")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6669,6 +7590,84 @@
 			(project "stm32_hotswap_chiffre"
 				(path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 382.27 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22e38488-4fc2-41bb-95e6-2afacd422347")
+		(property "Reference" "C17"
+			(at 380.365 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 379.095 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 382.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 382.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c3a773e-0c2e-4c5e-b815-237cec86b3cc")
+		)
+		(pin "2"
+			(uuid "9c43ea4c-8a14-488a-bf62-11ec6f3335fb")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6813,6 +7812,79 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 421.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd5b85a-64bc-4048-8bd0-ecfd17b7e62a")
+		(property "Reference" "LED5"
+			(at 421.64 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 421.64 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 421.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 421.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ffc1e19f-6e75-4106-a29e-7d503a550161")
+		)
+		(pin "4"
+			(uuid "6c1b296b-af0a-45c3-b764-a713cd19bf94")
+		)
+		(pin "2"
+			(uuid "cf96f7a6-0d03-4a8b-8d92-1343922fbbe1")
+		)
+		(pin "1"
+			(uuid "9b7b9a98-c324-4ee5-9c02-0919e7315fdf")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -7043,6 +8115,230 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 483.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f22eb7-9b9f-4e72-84c3-fdd916a76cda")
+		(property "Reference" "LED8"
+			(at 483.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 483.87 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 483.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 483.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26085a5f-a896-41df-b000-49a6f13ae42f")
+		)
+		(pin "4"
+			(uuid "6c48eefa-c48c-413b-8ed7-5df239be3556")
+		)
+		(pin "2"
+			(uuid "0c4f0699-c92b-4bf7-805c-3dd8001fdb9c")
+		)
+		(pin "1"
+			(uuid "757fb0ea-3e29-49e1-a594-956c4ce3f098")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 463.55 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "321a7b51-58dc-44e8-ba02-0c2b182f000e")
+		(property "Reference" "LED7"
+			(at 463.55 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 463.55 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 463.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 463.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 463.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "242e8924-82cb-4122-adfd-4aecedbd4d86")
+		)
+		(pin "4"
+			(uuid "888b3f9a-0406-4249-831f-d25abf243c85")
+		)
+		(pin "2"
+			(uuid "64275ab7-dcb4-44ef-bd8b-65a70714efd2")
+		)
+		(pin "1"
+			(uuid "d6b8e948-18a5-402c-a6e6-14d42042b88a")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 337.82 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32590bcc-f030-4ed5-97a0-7a3968d50912")
+		(property "Reference" "C10"
+			(at 335.915 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 334.645 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 337.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 337.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2dcd1e-7110-4088-b741-6015bd70b4d0")
+		)
+		(pin "2"
+			(uuid "89b2a676-c055-4ac7-8c51-17459ad55857")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 146.685 0)
 		(unit 1)
@@ -7142,6 +8438,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 400.05 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f4ae9dd-4b96-4b56-be5b-8aa8731c6487")
+		(property "Reference" "LED4"
+			(at 400.05 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 400.05 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 400.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 400.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0125ed22-51eb-4b18-81aa-6093bf0a94a1")
+		)
+		(pin "4"
+			(uuid "b59ec270-4a36-4c52-9f36-200ced7f7480")
+		)
+		(pin "2"
+			(uuid "a4dd5d76-3009-4389-a69d-b8858750a313")
+		)
+		(pin "1"
+			(uuid "a5605f83-397b-4885-a049-59f2a6d59877")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 47.625 160.02 0)
 		(unit 1)
@@ -7202,74 +8571,6 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 353.06 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46c6486d-ca7f-4541-8a08-7afef16287fe")
-		(property "Reference" "#PWR018"
-			(at 346.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 349.25 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 353.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34aeb4ac-7f09-4aa7-800d-9dccd01826c9")
-		)
-		(instances
-			(project "cloak-xt"
-				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7416,31 +8717,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 358.14 63.5 90)
+		(at 394.97 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f58b9ce-22c4-452a-898a-9bf8cf540b09")
-		(property "Reference" "C11"
-			(at 355.6 65.532 90)
+		(uuid "4b690cd7-a0fb-4a39-b400-0e8f6144e7fd")
+		(property "Reference" "C19"
+			(at 393.065 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 355.6 68.072 90)
+			(at 391.795 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 358.14 63.5 0)
+			(at 394.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +8752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 63.5 0)
+			(at 394.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,8 +8760,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 358.14 63.5 0)
+		(property "Description" ""
+			(at 394.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 394.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,56 +8779,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f5d0ca2-b283-4863-a25a-98cc074968a1")
+			(uuid "c97f4b33-ea5b-46c2-a93c-d14eb569904c")
 		)
 		(pin "2"
-			(uuid "3f05ca05-e532-407d-a30f-de09ec6ba9ca")
+			(uuid "e472698b-4cee-4b92-9207-622bd0b2990c")
 		)
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "C11")
+					(reference "C19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 334.01 63.5 90)
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 525.78 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "511d8dae-913d-4df0-9ef8-54c43ff73a31")
-		(property "Reference" "C8"
-			(at 331.47 65.532 90)
+		(uuid "51188215-fa6f-448a-b75b-5c39daa70547")
+		(property "Reference" "LED10"
+			(at 525.78 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 331.47 68.072 90)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 525.78 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 334.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 334.01 63.5 0)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 525.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,8 +8827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 334.01 63.5 0)
+		(property "Datasheet" ""
+			(at 525.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,16 +8836,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0c8eb355-0dd1-407c-be70-28e88f46008f")
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 525.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0cd9d291-decc-4857-8b4c-442573fbb831")
+		)
+		(pin "4"
+			(uuid "c432d1f9-6a69-49ea-a4a2-0e4b26cc7ae8")
 		)
 		(pin "2"
-			(uuid "64bd8136-c65c-47e2-93f5-533d7a2629fc")
+			(uuid "613ed630-34a3-4d4a-88c5-9667ccc15699")
+		)
+		(pin "1"
+			(uuid "e638d96f-c35a-4b56-a58b-8ec2f696a0eb")
 		)
 		(instances
-			(project ""
+			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "C8")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -7635,7 +8953,7 @@
 			)
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7648,18 +8966,34 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 328.93 63.5 270)
+		(lib_id "Device:C_Small")
+		(at 375.92 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5521933e-c347-4987-b5a8-27b2352815fa")
-		(property "Reference" "#PWR019"
-			(at 322.58 63.5 0)
+		(uuid "5edfea1f-636f-4dc7-b4c7-8547e428520a")
+		(property "Reference" "C16"
+			(at 374.015 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 372.745 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 375.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,17 +9001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 325.12 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 63.5 0)
+		(property "Datasheet" "~"
+			(at 375.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,8 +9010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 328.93 63.5 0)
+		(property "Description" ""
+			(at 375.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,8 +9019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 328.93 63.5 0)
+		(property "LCSC" "C1525"
+			(at 375.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,12 +9029,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "d75a2496-cee8-4d54-8d3b-91b553eaad61")
+			(uuid "9da8c8db-4493-43ae-9b3c-a07006431fa8")
+		)
+		(pin "2"
+			(uuid "396eb9dc-2d78-4bfe-b41c-c5f86e342749")
 		)
 		(instances
-			(project ""
+			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "#PWR019")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 363.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "605f9431-2d3e-45ad-a3ea-2eb7541e1eca")
+		(property "Reference" "C14"
+			(at 361.315 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 360.045 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 363.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 363.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "152a4f6e-9d05-4c2b-9b2b-947c79f0b03d")
+		)
+		(pin "2"
+			(uuid "54b83547-a5ae-4bba-92ba-5a3a6997a66f")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7894,6 +9300,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 350.52 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72917c80-385c-4668-b27e-afd48d32578e")
+		(property "Reference" "C12"
+			(at 348.615 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 347.345 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aefe5ad-beb7-41b1-b81c-aee1a3207a21")
+		)
+		(pin "2"
+			(uuid "86ea2d51-9a02-4396-8e5b-4080c93edd5d")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 188.595 137.16 0)
 		(mirror y)
@@ -7960,6 +9444,157 @@
 			(project "stm32_hotswap_chiffre"
 				(path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 344.17 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a30130d-9f61-4a22-a502-cc2d305dae10")
+		(property "Reference" "C11"
+			(at 342.265 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 340.995 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 344.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 344.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a94e9d-7282-4904-b5ae-dd8813a4daa3")
+		)
+		(pin "2"
+			(uuid "993a329a-87ba-4fca-8675-f0b33440863a")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 379.73 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba29d55-b42b-4520-be07-8ca32e528be1")
+		(property "Reference" "LED3"
+			(at 379.73 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 379.73 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 379.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 379.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e7ac02b6-e1d1-4999-9920-867390ae7ea6")
+		)
+		(pin "4"
+			(uuid "4494c95c-b89d-47a7-89be-e4d97c3fe709")
+		)
+		(pin "2"
+			(uuid "901a53c5-5bee-467c-ae77-8b3e918c239d")
+		)
+		(pin "1"
+			(uuid "5037ba34-c3b4-4a86-a716-0207051468c7")
+		)
+		(instances
+			(project ""
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -8117,7 +9752,7 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 325.12 55.88 0)
+		(at 330.2 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8126,7 +9761,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aff74f1-9a83-4f08-aeed-2383424aab48")
 		(property "Reference" "#PWR09"
-			(at 325.12 59.69 0)
+			(at 330.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +9770,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 325.12 50.8 0)
+			(at 330.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +9778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 55.88 0)
+			(at 330.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +9787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 55.88 0)
+			(at 330.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +9796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 325.12 55.88 0)
+			(at 330.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,6 +10036,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 546.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0cca064-3763-4155-bb41-ff9871a89765")
+		(property "Reference" "LED11"
+			(at 546.1 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 546.1 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 546.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 546.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88e7950f-a0d6-4086-a048-5d142ed16f90")
+		)
+		(pin "4"
+			(uuid "c81ec810-28bb-4529-a6d6-d8e953fa5044")
+		)
+		(pin "2"
+			(uuid "a3d86961-ec83-4eeb-b158-d5fe79b94549")
+		)
+		(pin "1"
+			(uuid "e44de47e-f0c5-4f1f-a57a-f9c720896cb8")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 146.685 0)
 		(unit 1)
@@ -8500,6 +10208,79 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 566.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa46cb08-6f4d-41a8-b82a-0949a6a707ae")
+		(property "Reference" "LED12"
+			(at 566.42 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 566.42 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 566.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 566.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 566.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ff9b0f7c-5110-4989-90ec-46b6f936917a")
+		)
+		(pin "4"
+			(uuid "e358a602-0767-44cd-8224-7773fc6e3429")
+		)
+		(pin "2"
+			(uuid "f7443fcf-5b55-4f99-b892-d11b8c3524fa")
+		)
+		(pin "1"
+			(uuid "616ddc2f-71ab-402f-a675-90c1eb97d2e2")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 256.54 151.13 0)
 		(mirror y)
@@ -8572,6 +10353,79 @@
 			(project "stm32_hotswap_chiffre"
 				(path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 505.46 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c22a0c18-0348-4e85-bc3f-683d2c3a103e")
+		(property "Reference" "LED9"
+			(at 505.46 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 505.46 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 505.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 505.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4f841910-a0d1-4b1d-99df-1f9779a7918f")
+		)
+		(pin "4"
+			(uuid "a02bd2c4-024f-407a-a9b6-7b643648df54")
+		)
+		(pin "2"
+			(uuid "01413a8f-21ae-4898-ae28-7a45e3d6dc39")
+		)
+		(pin "1"
+			(uuid "937f570a-4668-445c-9e89-20e9ce1d6d5b")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -9012,7 +10866,7 @@
 			)
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9089,6 +10943,84 @@
 			(project ""
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 388.62 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de802c44-baf2-4271-af6e-1ade806c4362")
+		(property "Reference" "C18"
+			(at 386.715 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 385.445 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 388.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 388.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 388.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07ab278-f8ad-4217-afe8-9996694219ca")
+		)
+		(pin "2"
+			(uuid "8cef4097-05f8-4a0f-83b0-3a1fde50f29f")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9188,6 +11120,150 @@
 			(project "stm32_hotswap_chiffre"
 				(path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 332.74 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49fd037-9327-4801-be9c-f32783b4a4d3")
+		(property "Reference" "#PWR021"
+			(at 332.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 117.5925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "755145a0-b533-4080-9ae4-505f7ac812da")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 356.87 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaca6e3b-6a0b-431c-9139-b29827a820cb")
+		(property "Reference" "C13"
+			(at 354.965 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 353.695 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 356.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 356.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "126d2efb-db70-4319-a99a-78be16c5965a")
+		)
+		(pin "2"
+			(uuid "1b46c7c5-e37d-48af-98a8-e6e89e881a0c")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9429,6 +11505,79 @@
 			(project "stm32_hotswap_chiffre"
 				(path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(at 441.96 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9f40845-226e-4483-86c7-a3aa939647b3")
+		(property "Reference" "LED6"
+			(at 441.96 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SK6812MINI-E"
+			(at 441.96 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R-ROT"
+			(at 441.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 441.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b9fb54e-615d-45c3-a1f0-87620ffa5878")
+		)
+		(pin "4"
+			(uuid "ea0983c8-b2db-43dc-9c95-483d3c7df334")
+		)
+		(pin "2"
+			(uuid "f127da9d-4c3d-4809-9b0d-ecc5fdddbeca")
+		)
+		(pin "1"
+			(uuid "770db7ae-e52f-45e1-b59f-99197dc4382e")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32"
+					(reference "LED6")
 					(unit 1)
 				)
 			)
