@@ -6002,17 +6002,6 @@
 		)
 		(uuid "68c830b2-22b2-40b7-912f-92447ea7f32f")
 	)
-	(label "C13"
-		(at 177.8 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69f9f3ed-f41b-401d-9b1f-ad893e4497b7")
-	)
 	(label "A8"
 		(at 163.83 35.56 0)
 		(fields_autoplaced yes)
@@ -6045,17 +6034,6 @@
 			(justify right bottom)
 		)
 		(uuid "6e102ec5-b4b9-4ca1-89bf-b804c678dc01")
-	)
-	(label "C14"
-		(at 177.8 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fac163a-c028-46f0-9aac-7c2f8ec9cfd9")
 	)
 	(label "B4"
 		(at 60.96 68.58 180)
@@ -6167,6 +6145,17 @@
 		)
 		(uuid "97309915-52e9-4946-9aa6-d448725bb8b5")
 	)
+	(label "B7"
+		(at 177.8 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b2621ab-9190-424b-9669-2bc317c7464c")
+	)
 	(label "A10"
 		(at 259.08 46.99 0)
 		(fields_autoplaced yes)
@@ -6210,6 +6199,17 @@
 			(justify right bottom)
 		)
 		(uuid "a7c13b26-ca47-4d70-965a-c670009dff73")
+	)
+	(label "B8"
+		(at 256.54 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5a4b05b-a445-41ec-b9a2-f9f18698c477")
 	)
 	(label "C15"
 		(at 60.325 53.34 180)
@@ -6332,17 +6332,6 @@
 		)
 		(uuid "d565750f-fa80-4cca-acfe-b72a117f8655")
 	)
-	(label "B0"
-		(at 256.54 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7a309f7-e9bd-45f1-b396-70c8f1a8ca50")
-	)
 	(label "B13"
 		(at 186.69 35.56 0)
 		(fields_autoplaced yes)
@@ -6353,6 +6342,17 @@
 			(justify left bottom)
 		)
 		(uuid "e7be2e78-3c81-4e55-a1a4-e696790e2f0e")
+	)
+	(label "B9"
+		(at 177.8 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2172e2e-c404-4a65-b447-589f4a6d9a6a")
 	)
 	(label "C13"
 		(at 60.325 48.26 180)
