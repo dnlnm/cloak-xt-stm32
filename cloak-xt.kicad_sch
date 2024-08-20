@@ -6201,13 +6201,13 @@
 		(uuid "a7c13b26-ca47-4d70-965a-c670009dff73")
 	)
 	(label "B8"
-		(at 256.54 69.85 0)
+		(at 256.54 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b5a4b05b-a445-41ec-b9a2-f9f18698c477")
 	)
