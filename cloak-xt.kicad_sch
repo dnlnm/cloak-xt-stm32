@@ -6091,7 +6091,7 @@
 		(uuid "7fbacf08-4431-4635-903d-5474bbab072c")
 	)
 	(label "B6"
-		(at 264.16 35.56 0)
+		(at 259.08 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6201,7 +6201,7 @@
 		(uuid "a7c13b26-ca47-4d70-965a-c670009dff73")
 	)
 	(label "B8"
-		(at 256.54 69.85 0)
+		(at 264.16 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6267,7 +6267,7 @@
 		(uuid "c67a4031-986c-45d8-840b-5cc1fd461698")
 	)
 	(label "B5"
-		(at 259.08 60.96 0)
+		(at 256.54 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
