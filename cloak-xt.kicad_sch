@@ -6142,7 +6142,7 @@
 		(uuid "4e78c2d3-cfaf-4b7c-af46-f78fda69dec0")
 	)
 	(label "A0"
-		(at 250.19 153.67 180)
+		(at 250.19 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6373,7 +6373,7 @@
 		(uuid "921e0221-cc30-4b8c-b943-f9a6be5d808d")
 	)
 	(label "A3"
-		(at 250.19 151.13 180)
+		(at 250.19 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6527,7 +6527,7 @@
 		(uuid "c9e17514-7f61-48e2-a267-0d9b99a62ebe")
 	)
 	(label "A2"
-		(at 250.19 148.59 180)
+		(at 250.19 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11838,7 +11838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 255.27 148.59 0)
 			(effects
 				(font
@@ -12013,7 +12013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 251.46 125.73 0)
 			(effects
 				(font

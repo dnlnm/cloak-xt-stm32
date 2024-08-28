@@ -1589,6 +1589,12 @@
 		(uuid "20fe71da-8844-4e29-b4eb-1820fb5fd27d")
 	)
 	(junction
+		(at 124.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f94c61-bb14-43cc-8537-03030030f62a")
+	)
+	(junction
 		(at 193.04 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1607,22 +1613,10 @@
 		(uuid "28b00905-7c77-463f-8cbe-00275e7de6d5")
 	)
 	(junction
-		(at 158.75 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a54b5ac-7073-44b4-9d98-cd67d6c4b688")
-	)
-	(junction
 		(at 95.25 111.125)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c4792e5-75a5-4bca-a8a8-4d91172db436")
-	)
-	(junction
-		(at 181.61 132.715)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e56667d-b186-43d0-87ef-c360eaa62515")
 	)
 	(junction
 		(at 106.68 79.375)
@@ -1673,6 +1667,18 @@
 		(uuid "3ccad2f8-5a16-4cd2-8c24-5243e7758a5b")
 	)
 	(junction
+		(at 175.26 142.875)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0bff2a-d570-4d2e-8cd7-d01f15578a37")
+	)
+	(junction
+		(at 181.61 132.715)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "421688cd-b367-45f4-ad0b-22f4eef9d8b6")
+	)
+	(junction
 		(at 135.89 100.965)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1721,6 +1727,12 @@
 		(uuid "51576218-19f4-4d19-a50e-3eeb83b27c13")
 	)
 	(junction
+		(at 101.6 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "531b4af7-d3e8-4d96-a1a5-a5d7ea58e9d5")
+	)
+	(junction
 		(at 186.69 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1763,10 +1775,10 @@
 		(uuid "5973e53a-764b-494a-bfd6-2f81df56d40d")
 	)
 	(junction
-		(at 113.03 116.84)
+		(at 90.17 132.715)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5da6328e-6987-47e1-9c5b-27def8132f7a")
+		(uuid "5a1f4fb1-1bdc-46c0-a7c5-c8cd330b671b")
 	)
 	(junction
 		(at 193.04 85.09)
@@ -1865,6 +1877,12 @@
 		(uuid "890f48bf-1bb6-412b-ad8e-52507201289c")
 	)
 	(junction
+		(at 106.68 142.875)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "894a8b4d-e4a6-4267-b7d1-ff53ee38c988")
+	)
+	(junction
 		(at 78.74 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1881,6 +1899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ac99de3-3e5b-4408-9e27-33aa4ab5335c")
+	)
+	(junction
+		(at 140.97 137.795)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b056501-cac9-4fca-99f7-1078c47c98c3")
 	)
 	(junction
 		(at 222.25 69.215)
@@ -1943,6 +1967,12 @@
 		(uuid "9e5213ce-245a-4b62-bd46-4b22e2dc7d57")
 	)
 	(junction
+		(at 129.54 142.875)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a171e924-7986-491b-ae3d-5caf1e4d2f0b")
+	)
+	(junction
 		(at 72.39 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1967,12 +1997,6 @@
 		(uuid "a5958b54-172e-4fde-af1b-210b1d932ea7")
 	)
 	(junction
-		(at 186.69 137.795)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a986b38c-0b86-4324-a1c7-7b09466fa992")
-	)
-	(junction
 		(at 67.31 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1989,6 +2013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b07b3c3f-75d8-44a3-b655-a93d0a9f9f13")
+	)
+	(junction
+		(at 135.89 132.715)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b16ff775-ffe0-4e96-80a3-b7e9d04ab3c9")
 	)
 	(junction
 		(at 209.55 142.875)
@@ -2027,22 +2057,34 @@
 		(uuid "bbe9383a-5726-4117-9a11-c59067d3c943")
 	)
 	(junction
+		(at 186.69 137.795)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc420c33-45e9-4287-befa-4a0bb203e04e")
+	)
+	(junction
 		(at 95.25 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdc2c9b4-f658-4e75-aa28-ba38edce0e4a")
 	)
 	(junction
+		(at 95.25 137.795)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7eeea1-60a7-42bb-9a35-55afaa8f57f8")
+	)
+	(junction
+		(at 147.32 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf84b3b4-21a2-4f1c-80ee-967470801ef2")
+	)
+	(junction
 		(at 175.26 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00a5168-f93b-4a4a-86f2-c58d579ae751")
-	)
-	(junction
-		(at 95.25 137.795)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0225e0d-2cf6-4dae-a37a-17f1fddc7d33")
 	)
 	(junction
 		(at 60.325 51.435)
@@ -2075,6 +2117,12 @@
 		(uuid "c727db96-39a9-47b2-8473-6e6fb8f4cb8b")
 	)
 	(junction
+		(at 152.4 142.875)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9545c18-945a-4bf8-aea1-350121d24bf0")
+	)
+	(junction
 		(at 152.4 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,12 +2133,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdcf96d9-2e8a-448e-bf2a-426fec6f2249")
-	)
-	(junction
-		(at 118.11 142.875)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cea49190-df01-4d5b-9d62-f12a829e25f6")
 	)
 	(junction
 		(at 186.69 95.25)
@@ -2159,12 +2201,6 @@
 		(uuid "e1899016-c836-4910-a729-47dc3edb76ab")
 	)
 	(junction
-		(at 90.17 132.715)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3d26c5c-8a59-4f6b-bc6f-0f02f66209f2")
-	)
-	(junction
 		(at 83.82 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2201,12 +2237,6 @@
 		(uuid "f18b4195-c6c8-42f3-bfeb-da1e1aedfa4f")
 	)
 	(junction
-		(at 163.83 142.875)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f22094d2-58cf-4cce-9ca6-42a26e887a7c")
-	)
-	(junction
 		(at 95.25 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2230,6 +2260,12 @@
 		(color 0 0 0 0)
 		(uuid "fb4b171e-7479-4b5e-9b7e-1d1b96c26bf1")
 	)
+	(junction
+		(at 170.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde8d8e8-07b8-4608-ac02-5f88c129c430")
+	)
 	(wire
 		(pts
 			(xy 152.4 95.25) (xy 163.83 95.25)
@@ -2249,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "029da1c8-fd6b-4d4b-b32d-a50df0726810")
+	)
+	(wire
+		(pts
+			(xy 140.97 137.795) (xy 144.78 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c3040a-0ae2-4ed3-99b0-03a9f25aecb4")
 	)
 	(wire
 		(pts
@@ -2339,6 +2385,16 @@
 			(type default)
 		)
 		(uuid "0e159e19-4bd5-4d3d-a1c9-ad9330dd5084")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.875) (xy 140.97 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f4f4ac-66c9-4754-9068-e70369ddeeae")
 	)
 	(wire
 		(pts
@@ -2442,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 142.875) (xy 163.83 142.875)
+			(xy 140.97 142.875) (xy 152.4 142.875)
 		)
 		(stroke
 			(width 0)
@@ -2502,6 +2558,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 132.715) (xy 139.7 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368068ba-397a-4466-94db-807c0c3c44c1")
+	)
+	(wire
+		(pts
+			(xy 124.46 116.84) (xy 124.46 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dd98be-6db6-44df-b515-b588410c7800")
+	)
+	(wire
+		(pts
 			(xy 40.005 53.975) (xy 28.575 53.975)
 		)
 		(stroke
@@ -2522,6 +2598,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 137.795) (xy 99.06 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389647c7-a097-431f-ab9a-41ec052f5f39")
+	)
+	(wire
+		(pts
 			(xy 90.17 85.09) (xy 90.17 100.965)
 		)
 		(stroke
@@ -2529,16 +2615,6 @@
 			(type default)
 		)
 		(uuid "3a606f54-1f30-4790-a9a2-d6b45af3637e")
-	)
-	(wire
-		(pts
-			(xy 90.17 132.715) (xy 93.98 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b072ff7-5a79-4f41-ae7b-639868f69068")
 	)
 	(wire
 		(pts
@@ -2692,6 +2768,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 137.795) (xy 190.5 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544bd841-8c54-4638-aee4-246593095e2f")
+	)
+	(wire
+		(pts
 			(xy 83.82 95.25) (xy 95.25 95.25)
 		)
 		(stroke
@@ -2699,6 +2785,16 @@
 			(type default)
 		)
 		(uuid "58b222c0-690e-4314-ac32-8de82b1fc062")
+	)
+	(wire
+		(pts
+			(xy 106.68 142.875) (xy 129.54 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a520ccb-8d05-43f4-974f-a18f0385dce9")
 	)
 	(wire
 		(pts
@@ -2802,16 +2898,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 132.715) (xy 185.42 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "704b77aa-1c98-4567-a399-652239fe3c1e")
-	)
-	(wire
-		(pts
 			(xy 72.39 142.875) (xy 83.82 142.875)
 		)
 		(stroke
@@ -2839,16 +2925,6 @@
 			(type default)
 		)
 		(uuid "73972843-23b2-4256-8e18-d5cae20cdcfe")
-	)
-	(wire
-		(pts
-			(xy 95.25 137.795) (xy 99.06 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74261031-2968-460e-b140-043acb7a55f0")
 	)
 	(wire
 		(pts
@@ -3002,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 142.875) (xy 118.11 142.875)
+			(xy 95.25 142.875) (xy 106.68 142.875)
 		)
 		(stroke
 			(width 0)
@@ -3029,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "866c9ebd-c342-4c3d-94ff-5ec90241c155")
+	)
+	(wire
+		(pts
+			(xy 181.61 132.715) (xy 185.42 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d480aa-7935-4c9a-a4f7-ab1ab34047eb")
 	)
 	(wire
 		(pts
@@ -3092,6 +3178,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 142.875) (xy 186.69 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f216033-1e8a-453d-8360-a3339259fd88")
+	)
+	(wire
+		(pts
 			(xy 152.4 79.375) (xy 163.83 79.375)
 		)
 		(stroke
@@ -3142,16 +3238,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 116.84) (xy 113.03 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9133eebf-f92b-49e3-96ed-dec03097f15e")
-	)
-	(wire
-		(pts
 			(xy 175.26 111.125) (xy 186.69 111.125)
 		)
 		(stroke
@@ -3189,6 +3275,16 @@
 			(type default)
 		)
 		(uuid "95f89e59-acbc-4e35-8d79-e2e78be1469c")
+	)
+	(wire
+		(pts
+			(xy 147.32 116.84) (xy 147.32 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9661efe1-c57f-4015-ab5c-08c46bfecef2")
 	)
 	(wire
 		(pts
@@ -3252,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 137.795) (xy 190.5 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0404a4-112e-4ff5-953a-877d6b6fda9c")
-	)
-	(wire
-		(pts
 			(xy 124.46 64.135) (xy 124.46 69.215)
 		)
 		(stroke
@@ -3289,16 +3375,6 @@
 			(type default)
 		)
 		(uuid "a1d941cd-2e8a-4ee7-89eb-5c2d857b1b03")
-	)
-	(wire
-		(pts
-			(xy 118.11 142.875) (xy 140.97 142.875)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a404de6e-531b-43d9-aff0-ee8feb3ad57e")
 	)
 	(wire
 		(pts
@@ -3369,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "aedabb47-24f8-44d5-b3fc-3018bceb7fc0")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 101.6 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1361be7-275e-4011-8e92-e86a47e7d989")
 	)
 	(wire
 		(pts
@@ -3512,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 142.875) (xy 186.69 142.875)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc38fbe5-fe77-4ab2-9fdf-dda0065919cb")
-	)
-	(wire
-		(pts
 			(xy 51.435 95.25) (xy 72.39 95.25)
 		)
 		(stroke
@@ -3529,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "ccefa1b0-c0a7-4653-9ce7-406ae1f6adee")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.715) (xy 93.98 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6909d7-32a1-49ee-954a-0c126b3acdd0")
 	)
 	(wire
 		(pts
@@ -3609,16 +3695,6 @@
 			(type default)
 		)
 		(uuid "da0f75b5-56fb-4c3d-a8e8-9f769f7fdecb")
-	)
-	(wire
-		(pts
-			(xy 158.75 116.84) (xy 158.75 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae49974-d421-431f-9cc0-0fd1d495a2b3")
 	)
 	(wire
 		(pts
@@ -3712,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 116.84) (xy 170.18 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5309a-acd4-433d-9ddf-1ff01de23a53")
+	)
+	(wire
+		(pts
 			(xy 51.435 79.375) (xy 72.39 79.375)
 		)
 		(stroke
@@ -3719,6 +3805,16 @@
 			(type default)
 		)
 		(uuid "edcca361-8c9f-4f58-85e4-3699f0014dae")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.875) (xy 175.26 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebcd7d7-638a-4cdc-88e6-7b7a1240ca14")
 	)
 	(wire
 		(pts
@@ -5207,15 +5303,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 163.83 140.335 90)
+		(at 152.4 140.335 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "19f1db66-3790-4f8f-8f2a-92de19b52202")
-		(property "Reference" "D64"
-			(at 165.735 141.605 90)
+		(property "Reference" "D66"
+			(at 154.305 141.605 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5320,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 165.735 142.24 90)
+			(at 154.305 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5330,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 163.83 140.335 90)
+			(at 152.4 140.335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 140.335 90)
+			(at 152.4 140.335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 140.335 0)
+			(at 152.4 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5357,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 163.83 140.335 0)
+			(at 152.4 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5366,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 140.335 0)
+			(at 152.4 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5383,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D64")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -5356,6 +5452,70 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
 					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 140.97 163.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205ce312-fa9c-40f0-b1bd-dd171d9adaad")
+		(property "Reference" "S65"
+			(at 147.32 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.25u"
+			(at 147.32 164.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+			(at 140.97 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 140.97 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "S65")
 					(unit 1)
 				)
 			)
@@ -5741,15 +5901,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 118.11 140.335 90)
+		(at 129.54 140.335 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c6da017-c927-4c3a-8ee3-45a395cc853c")
-		(property "Reference" "D62"
-			(at 120.015 141.605 90)
+		(property "Reference" "D63"
+			(at 131.445 141.605 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5918,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 120.015 142.24 90)
+			(at 131.445 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5928,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 118.11 140.335 90)
+			(at 129.54 140.335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 140.335 90)
+			(at 129.54 140.335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5946,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 140.335 0)
+			(at 129.54 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5955,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 140.335 0)
+			(at 129.54 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5964,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 140.335 0)
+			(at 129.54 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5981,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D62")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -6385,6 +6545,94 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 106.68 140.335 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "363059eb-bd6e-4a00-baa7-29cf91c75c07")
+		(property "Reference" "D62"
+			(at 108.585 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 108.585 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 106.68 140.335 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 140.335 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9124ae08-17bb-43a1-aca2-3a81c87433c8")
+		)
+		(pin "2"
+			(uuid "f1cad2bf-b812-462e-926a-b1311adb2426")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 152.4 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6607,15 +6855,15 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 115.57 135.255 0)
+		(at 127 135.255 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "419c37ce-f36d-44b1-b37c-836d157f78ee")
-		(property "Reference" "MX62"
-			(at 115.57 130.81 0)
+		(property "Reference" "MX63"
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6871,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 115.57 130.81 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6880,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 115.57 135.255 0)
+			(at 127 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 135.255 0)
+			(at 127 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 135.255 0)
+			(at 127 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6915,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX62")
+					(reference "MX63")
 					(unit 1)
 				)
 			)
@@ -7442,7 +7690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a693b0c-f23e-48d1-a733-8d3cf45e3c7d")
-		(property "Reference" "D68"
+		(property "Reference" "D71"
 			(at 211.455 141.605 90)
 			(effects
 				(font
@@ -7515,7 +7763,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D68")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -7618,7 +7866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aa6d3fb-27e1-4e8d-9eeb-22f69d7e5e82")
-		(property "Reference" "D69"
+		(property "Reference" "D72"
 			(at 229.235 141.605 90)
 			(effects
 				(font
@@ -7691,7 +7939,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D69")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -7991,6 +8239,74 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 142.24 135.255 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6252e5d8-4108-457d-a7ce-65a1c122af33")
+		(property "Reference" "MX65"
+			(at 144.78 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 142.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 142.24 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a42398-c729-49e5-8099-c1a44fa61d18")
+		)
+		(pin "2"
+			(uuid "d4d5c7ae-80ce-4247-9b99-26e8d188ab70")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "MX65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 172.72 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8066,7 +8382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63799c92-c5f7-435d-ac8d-347af34dc336")
-		(property "Reference" "S62"
+		(property "Reference" "S63"
 			(at 115.57 149.86 0)
 			(effects
 				(font
@@ -8075,7 +8391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3u"
+		(property "Value" "2.25u"
 			(at 116.205 154.305 0)
 			(effects
 				(font
@@ -8084,7 +8400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_3u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
 			(at 117.475 149.86 0)
 			(effects
 				(font
@@ -8114,7 +8430,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "S62")
+					(reference "S63")
 					(unit 1)
 				)
 			)
@@ -8129,7 +8445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6834872d-4793-4e28-b0bf-41c3103f00b4")
-		(property "Reference" "S63"
+		(property "Reference" "S64"
 			(at 139.065 150.495 0)
 			(effects
 				(font
@@ -8177,7 +8493,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "S63")
+					(reference "S64")
 					(unit 1)
 				)
 			)
@@ -8192,7 +8508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "687f1664-552a-49de-acd1-216a9d564477")
-		(property "Reference" "MX65"
+		(property "Reference" "MX68"
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -8209,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u"
 			(at 184.15 135.255 0)
 			(effects
 				(font
@@ -8245,7 +8561,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX65")
+					(reference "MX68")
 					(unit 1)
 				)
 			)
@@ -8496,6 +8812,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 96.52 135.255 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5dbc86-e90f-4cc0-9c24-4b34e3ca6462")
+		(property "Reference" "MX61"
+			(at 99.695 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 96.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
+			(at 96.52 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1db51fc4-fe17-489d-a879-84c33f4350ac")
+		)
+		(pin "2"
+			(uuid "1072bdee-c1b1-4d3f-ae22-8f1f168ab068")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "MX61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 152.4 92.71 90)
 		(unit 1)
@@ -8720,6 +9104,74 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
 					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 172.72 135.255 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "792d6a63-acf6-41d4-9b7b-f8e91c026a43")
+		(property "Reference" "MX67"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 172.72 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d089cab-f84a-456f-8535-e2154e114aea")
+		)
+		(pin "2"
+			(uuid "f9c0288e-c753-4074-890a-3caf5d0fc9b2")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "MX67")
 					(unit 1)
 				)
 			)
@@ -8964,6 +9416,74 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
 					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 187.96 135.255 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e615c0e-b26a-4f38-be10-9b9104eaf81e")
+		(property "Reference" "MX69"
+			(at 191.135 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+			(at 187.96 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ac6820-0d7f-49eb-ac87-9e4c7e346f4f")
+		)
+		(pin "2"
+			(uuid "99565048-4177-4312-8c5f-105e4902e318")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "MX69")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87948239-d8a8-4893-a752-4a7718d58f58")
-		(property "Reference" "MX67"
+		(property "Reference" "MX70"
 			(at 195.58 130.81 0)
 			(effects
 				(font
@@ -9389,7 +9909,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX67")
+					(reference "MX70")
 					(unit 1)
 				)
 			)
@@ -9577,7 +10097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 92.71 135.255 0)
 			(effects
 				(font
@@ -10089,6 +10609,74 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 104.14 135.255 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b6c956-bedb-4a95-b885-db1dae4ac8e9")
+		(property "Reference" "MX62"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 104.14 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8109941-b6ab-4ae4-bffa-c9d729dc2d47")
+		)
+		(pin "2"
+			(uuid "0be73e62-a61d-4e36-ab3c-b6c1d32cee8c")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "MX62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 207.01 135.255 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10096,7 +10684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b541ec0-a4be-40da-965e-0459d23c52fa")
-		(property "Reference" "MX68"
+		(property "Reference" "MX71"
 			(at 207.01 130.81 0)
 			(effects
 				(font
@@ -10113,7 +10701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 207.01 135.255 0)
 			(effects
 				(font
@@ -10149,7 +10737,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX68")
+					(reference "MX71")
 					(unit 1)
 				)
 			)
@@ -10368,7 +10956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a145ac80-9008-4b01-9cb1-4584a3026bdb")
-		(property "Reference" "MX63"
+		(property "Reference" "MX64"
 			(at 138.43 130.81 0)
 			(effects
 				(font
@@ -10421,7 +11009,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX63")
+					(reference "MX64")
 					(unit 1)
 				)
 			)
@@ -10572,7 +11160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ce639e-4ce6-4f27-b4a0-ce7df6940ddf")
-		(property "Reference" "D63"
+		(property "Reference" "D64"
 			(at 142.875 141.605 90)
 			(effects
 				(font
@@ -10645,7 +11233,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D63")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -11501,74 +12089,6 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 187.96 135.255 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeb86647-ed1f-4e82-bba9-0fca340ffe0d")
-		(property "Reference" "MX66"
-			(at 191.77 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 187.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
-			(at 187.96 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3d1f484-7b9d-4370-a8f7-32c8dae59c0c")
-		)
-		(pin "2"
-			(uuid "d62c6476-6485-47b4-abea-7d23d147c109")
-		)
-		(instances
-			(project "cloak-xt"
-				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 104.14 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11644,7 +12164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b09f8e19-4f65-435a-8c5e-15981cd7a7e8")
-		(property "Reference" "D65"
+		(property "Reference" "D68"
 			(at 188.595 141.605 90)
 			(effects
 				(font
@@ -11717,7 +12237,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D65")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -11806,7 +12326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b22143c6-1604-4c28-b314-3705315fc9ce")
-		(property "Reference" "MX69"
+		(property "Reference" "MX72"
 			(at 224.79 130.81 0)
 			(effects
 				(font
@@ -11859,7 +12379,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX69")
+					(reference "MX72")
 					(unit 1)
 				)
 			)
@@ -12308,69 +12828,6 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
 					(reference "MX54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 140.97 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba794c74-057a-4199-a6d3-c4b7f5d58fd2")
-		(property "Reference" "S1"
-			(at 139.065 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6u"
-			(at 139.7 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6u"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "cloak-xt"
-				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -13181,15 +13638,15 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 161.29 135.255 0)
+		(at 149.86 135.255 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9e69e8e-a244-4a72-9d26-e32ca61ce0dd")
-		(property "Reference" "MX64"
-			(at 161.29 130.81 0)
+		(property "Reference" "MX66"
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13654,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 161.29 130.81 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13663,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 161.29 135.255 0)
+			(at 149.86 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +13672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 135.255 0)
+			(at 149.86 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 135.255 0)
+			(at 149.86 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,7 +13698,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX64")
+					(reference "MX66")
 					(unit 1)
 				)
 			)
@@ -14108,7 +14565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8980698-7a52-4833-b96f-b1d2dcfc1cf6")
-		(property "Reference" "D67"
+		(property "Reference" "D70"
 			(at 200.025 141.605 90)
 			(effects
 				(font
@@ -14181,7 +14638,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "D67")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -14528,7 +14985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e07530ac-22ed-40b0-9ab4-957a301cf69d")
-		(property "Reference" "S64"
+		(property "Reference" "S66"
 			(at 161.925 149.86 0)
 			(effects
 				(font
@@ -14537,7 +14994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3u"
+		(property "Value" "2.75u"
 			(at 162.56 154.305 0)
 			(effects
 				(font
@@ -14546,7 +15003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_3u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
 			(at 163.83 149.86 0)
 			(effects
 				(font
@@ -14576,7 +15033,7 @@
 		(instances
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "S64")
+					(reference "S66")
 					(unit 1)
 				)
 			)
@@ -14676,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
 			(at 69.85 135.255 0)
 			(effects
 				(font
@@ -15188,74 +15645,6 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 96.52 135.255 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f219f63d-1a68-4c71-85cc-1c936376cc34")
-		(property "Reference" "MX61"
-			(at 99.06 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
-			(at 96.52 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68849436-a55a-4d0f-87d2-d2ef23268f15")
-		)
-		(pin "2"
-			(uuid "a1d7f64e-a851-4741-8486-c84cb309bbe9")
-		)
-		(instances
-			(project "cloak-xt"
-				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
-					(reference "MX61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 138.43 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15473,6 +15862,94 @@
 			(project "cloak-xt"
 				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
 					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 175.26 140.335 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f48a1b4f-6bb5-463a-90c5-9b6c233f2e98")
+		(property "Reference" "D67"
+			(at 177.165 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 177.165 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 175.26 140.335 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 140.335 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f7caeb-a872-4e50-8774-87453a53a9d0")
+		)
+		(pin "2"
+			(uuid "bb0ba592-26a3-4a11-970a-0857912cecfb")
+		)
+		(instances
+			(project "cloak-xt"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/1dce68b0-b625-42aa-84db-de4b32ed3fae"
+					(reference "D67")
 					(unit 1)
 				)
 			)
