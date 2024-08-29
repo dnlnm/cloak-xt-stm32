@@ -8195,7 +8195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -15269,7 +15269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.5u"
 			(at 207.01 87.63 0)
 			(effects
 				(font
